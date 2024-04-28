@@ -42,7 +42,7 @@ class Fraction:
         result_denominator = self.denominator * other.numerator
         return Fraction(result_numerator, result_denominator)
 
-# Пример использования:
+
 fraction1 = Fraction(1, 2)
 fraction2 = Fraction(3, 4)
 fraction1.output_data()
